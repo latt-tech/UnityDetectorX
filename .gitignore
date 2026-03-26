@@ -13,4 +13,5 @@ node_modules
 mini_electron.exe
 dist/
 node_modules/
+*bfg-report/
 bfg.jar
