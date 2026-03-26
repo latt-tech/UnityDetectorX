@@ -29,3 +29,5 @@ walkDir(electronRoot)
   .then(data => fs.promises.writeFile('UnityDetectorX-with-bgm.zip', data))
   .then(() => zip.remove('UnityDetectorX/resources/app/bgm.mp3').generateAsync(ZIP_OPTIONS))
   .then(data => fs.promises.writeFile('UnityDetectorX.zip', data))
+
+
